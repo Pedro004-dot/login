@@ -1,4 +1,6 @@
 Aplicação de Login - Backend
+
+
 Este é o repositório da aplicação de login. Ele contém apenas o backend, desenvolvido em TypeScript e utilizando PostgreSQL como banco de dados. A aplicação oferece funcionalidades básicas de autenticação, como criação de usuários, autenticação, deleção e busca de usuários. Senhas são armazenadas de forma segura, utilizando criptografia, e um token é gerado quando o usuário se autentica com sucesso.
 
 Tecnologias Utilizadas
@@ -48,7 +50,7 @@ Para iniciar o servidor, rode o seguinte comando na pasta backend:
 bash
 Copiar código
 npm run dev
-A aplicação estará disponível em http://localhost:3000.
+A aplicação estará disponível em http://localhost:3333.
 
 Rotas Disponíveis
 POST /users/create: Criação de um novo usuário.

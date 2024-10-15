@@ -18,25 +18,6 @@ PostgreSQL (versão 13.x ou superior)
 Configuração
 Clone este repositório:
 
-bash
-Copiar código
-git clone https://github.com/seuusuario/seurepositorio.git
-Acesse a pasta do backend:
-
-bash
-Copiar código
-cd backend
-Instale as dependências:
-
-bash
-Copiar código
-npm install
-Crie um banco de dados PostgreSQL:
-
-sql
-Copiar código
-CREATE DATABASE nome_do_banco;
-Configure as variáveis de ambiente:
 
 Crie um arquivo .env na pasta backend com as seguintes variáveis:
 
@@ -67,10 +48,7 @@ Segurança: As senhas dos usuários são criptografadas com bcrypt antes de sere
 Autenticação: A autenticação é baseada em JWT. Todas as rotas protegidas devem ser acessadas com um token válido no cabeçalho Authorization.
 Validação: Middleware para validação de token JWT nas rotas protegidas.
 Código Limpo: A aplicação segue os princípios de Clean Code, com separação clara de responsabilidades, organização modular e nomenclatura consistente.
-Melhorias Futuras
-Implementação de testes unitários e de integração.
-Documentação mais detalhada com OpenAPI (Swagger).
-Validação de dados de entrada mais robusta.
+
 Contribuição
 Sinta-se à vontade para abrir issues e pull requests. Todo tipo de feedback é bem-vindo!
 
